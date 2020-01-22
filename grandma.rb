@@ -5,7 +5,7 @@ def speak_to_grandma(phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-if phase == phase.downcase
+if phase == phase.capitalize
   return "Huh?! SPEAK UP, SONNY!"
 
 # If you shout, she can hear you (or at least she thinks so) 
