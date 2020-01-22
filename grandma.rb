@@ -1,7 +1,7 @@
 def speak_to_grandma(phase)
 
-  if phase == phase.capitalize
-    return "HUH?! SPEAK UP, SONNY!"
+  if phase == phase.capitalize || phase.lowercase
+    return "HUH?! SPEAK UP SONNY!"
 
   elsif phase == phase.upcase && (phase.upcase != "I LOVE YOU GRANDMA!")
     return "NO, NOT SINCE 1938!"
