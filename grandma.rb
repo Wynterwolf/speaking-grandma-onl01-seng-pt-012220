@@ -6,7 +6,7 @@ def speak_to_grandma(phrase)
 # unless you shout it (type in all capitals).
 
 if phrase == phase.capitalize
-  return "Huh?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
